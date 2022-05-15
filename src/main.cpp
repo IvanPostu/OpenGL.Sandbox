@@ -8,7 +8,7 @@ using namespace std;
 int main(int argc, char **argv)
 {
 
-    printf("%s\n", "SimpleProject");
+  printf("%s\n", "SimpleProject");
 
-    return 0;
+  return EXIT_SUCCESS;
 }

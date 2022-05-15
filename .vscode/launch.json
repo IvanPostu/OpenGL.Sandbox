@@ -8,7 +8,7 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/bin/BlockChainService",
+      "program": "${workspaceFolder}/build/Debug/bin/BlockChainService",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
