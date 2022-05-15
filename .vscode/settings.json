@@ -5,7 +5,7 @@
   "window.titleBarStyle": "custom",
   "window.customMenuBarAltFocus": false,
   "breadcrumbs.enabled": true,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "debug.console.fontSize": 15,
   "debug.console.lineHeight": 15,
   "search.showLineNumbers": true,

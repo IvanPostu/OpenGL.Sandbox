@@ -18,4 +18,12 @@ $ cmake --build build --target clean
 # RunTests: 
 $ cmake -E chdir build ctest --verbose
 
+
+
+#External lib was added using
+$ git submodule add https://github.com/glfw/glfw.git external/glfw
+
+#usefull command
+$ git submodule update --init --recursive
+
 ```
