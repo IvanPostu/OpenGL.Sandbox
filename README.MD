@@ -2,12 +2,15 @@
 
 ``` bash
 
-# Prepare project
-$ cmake -E make_directory build
-$ cmake -E chdir build cmake .. -Dtest=ON -DCMAKE_BUILD_TYPE=Debug
+# Prepare folder structure
+$ cmake -E make_directory build build/Debug build/Release
+
+
+# Generate project for Debig
+$ cmake -E chdir build/Debug cmake ../.. -Dtest=ON -DCMAKE_BUILD_TYPE=Debug
 
 # Build project
-$ cmake --build build --config Release|Debug
+$ cmake --build build/Debug --config Debug
 
 # Clean project
 $ cmake --build build --target clean
