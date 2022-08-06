@@ -27,4 +27,8 @@ $ git submodule add [-b branchMame] https://github.com/glfw/glfw.git external/gl
 #usefull command
 $ git submodule update --init --recursive
 
+# Generate glad sources from project
+$ python3 -m glad --help
+$ python3 -m glad --out-path '../gladfolder' --generator 'c'
+
 ```
