@@ -39,12 +39,6 @@ add_subdirectory(
   ${CMAKE_CURRENT_SOURCE_DIR}/../glad 
   ${CMAKE_CURRENT_SOURCE_DIR}/_deps_internal/glad)
 
-# glad
-# add_subdirectory(
-#   ${CMAKE_CURRENT_SOURCE_DIR}/../../external/glad 
-#   ${CMAKE_CURRENT_SOURCE_DIR}/_deps_external/glad)
-# target_include_directories(${PROJECT_NAME} PRIVATE  ${CMAKE_CURRENT_SOURCE_DIR}/../../external/glad)
-# target_link_libraries(${PROJECT_NAME} glad)
 
 target_link_libraries(${PROJECT_NAME} adder glad)
 
