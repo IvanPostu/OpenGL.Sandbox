@@ -22,7 +22,7 @@ $ cmake -E chdir "build/$ProjectName/Debug" ctest --verbose
 
 
 #External lib was added using
-$ git submodule add https://github.com/glfw/glfw.git external/glfw
+$ git submodule add [-b branchMame] https://github.com/glfw/glfw.git external/glfw
 
 #usefull command
 $ git submodule update --init --recursive
