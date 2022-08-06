@@ -8,7 +8,7 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/Debug/bin/BlockChainService",
+      "program": "${workspaceFolder}/build/SandBox.Richard/Debug/bin/SandBoxRichard",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
