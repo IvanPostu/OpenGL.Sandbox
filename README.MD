@@ -2,22 +2,23 @@
 
 ``` bash
 
+$ ProjectName="SandBox.Richard"
+
 # Prepare folder structure
-$ cmake -E make_directory build build/Debug build/Release
+$ cmake -E make_directory "build/$ProjectName/Debug" "build/$ProjectName/Release"
 
 
-# Generate project for Debig
-$ cmake -E chdir build/Debug cmake ../.. -Dtest=ON -DCMAKE_BUILD_TYPE=Debug
+# Generate project for Debug
+$ cmake -E chdir "build/$ProjectName/Debug" cmake "../../../internal/$ProjectName" -Dtest=ON -DCMAKE_BUILD_TYPE=Debug
 
 # Build project
-$ cmake --build build/Debug --config Debug
+$ cmake --build "build/$ProjectName/Debug" --config Debug
 
 # Clean project
-$ cmake --build build --target clean
+$ cmake --build "build/$ProjectName/Debug" --target clean
 
 # RunTests: 
-$ cmake -E chdir build ctest --verbose
-
+$ cmake -E chdir "build/$ProjectName/Debug" ctest --verbose
 
 
 #External lib was added using

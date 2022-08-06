@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
 
 
-project(BlockChainService)
+project(SandboxBob)
 
 
 message(STATUS "${PROJECT_NAME} build mode: ${CMAKE_BUILD_TYPE}")

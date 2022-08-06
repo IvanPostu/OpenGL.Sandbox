@@ -172,5 +172,5 @@
     "*.jsp": "html",
     "cstdlib": "cpp"
   },
-  "cmake.configureOnOpen": true
+  "cmake.configureOnOpen": false
 }
